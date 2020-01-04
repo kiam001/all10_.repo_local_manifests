@@ -10,7 +10,7 @@ Use google's official method to setup your build environment.
 
 Use Rom Manifest waht did you Builds
 
-git clone https://github.com/kiam001/android10_.repo_local_manifests.repo/local_manifests
+git clone https://github.com/kiam001/android10_.repo_local_manifests .repo/local_manifests
 
 ## Sync the source
 
