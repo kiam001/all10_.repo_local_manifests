@@ -19,13 +19,14 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 ### Building
 
-```bash
 uncomment .repo/local_manifests/cedric.xml system_qcom is it dosent exist on romsource
 
-in romsource 
+in romsource
+```bash
 nano mvaosp.sh
+```
 and paste
-
+```bash
 echo "What is rom are you building this is for .mk files so see what is required:"
 read rom
 devicedir=device/motorola/cedric
@@ -37,15 +38,17 @@ sed -i -e 's/aosp/'$rom/g vendorsetup.sh
 sed -i -e 's/aosp/'$rom/g AndroidProducts.mk
 cd "$OLDPWD"
 echo Ready to Build
-
+```
+```bash
 bash mvaosp.sh
+```
 and give the rom name waht did you need show in "vendor/" for help to find the name
 
 # Set up environment
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch aosp_cedric-userdebug
+$ lunch romname_cedric-userdebug
 
 # Build the code
 $ mka bacon
