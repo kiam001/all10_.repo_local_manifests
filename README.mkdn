@@ -21,8 +21,6 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 uncomment .repo/local_manifests/cedric.xml system_qcom is it dosent exist on romsource
 
-doesent exist vendor/qcom/common clone https://github.com/ThankYouMario/proprietary_vendor_qcom_common
-
 in romsource
 ```bash
 nano mvaosp.sh
@@ -53,4 +51,14 @@ $ lunch romname_cedric-userdebug
 
 # Build the code
 $ mka bacon
+
+# Fixes
+bye bootloop Native registration unable to find class 'com/qualcomm/qti/Performance'; aborting...
+```bash
+git clone https://github.com/ThankYouMario/proprietary_vendor_qcom_common/ vendor/qcom/common
+```
+and add in device.mk
+```bash
+-include vendor/qcom/common/perf/qti-perf.mk
+```
 ```
