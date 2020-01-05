@@ -20,6 +20,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ### Building
 
 uncomment .repo/local_manifests/cedric.xml system_qcom is it dosent exist on romsource
+doesent exist vendor/qcom/common clone https://github.com/ThankYouMario/proprietary_vendor_qcom_common
 
 in romsource
 ```bash
