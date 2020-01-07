@@ -62,6 +62,8 @@ and add in device.mk
 -include vendor/qcom/common/perf/qti-perf.mk
 ```
 Evo X ril and wifi fix
+```bash
 rm -rf external/json-c
 git clone https://github.com/pe-wip/external_json-c external/json-c
+```
 
