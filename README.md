@@ -1,4 +1,4 @@
-# PixelExperience_.repo_local_manifests
+# Xtended_.repo_local_manifests
 
 ```bash
 git clone https://github.com/kiam001/PixelExperience_.repo_local_manifests .repo/local_manifests
