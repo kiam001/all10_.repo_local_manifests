@@ -11,6 +11,6 @@
   <project name="kiam001/Xtended_vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="lineage-17.0" />
   
   <!-- Fixes -->
-  <project name="pe-wip/external_json-c" path="external/json-c" remote="github" />
+  <project name="pe-wip/external_json-c" path="external/json-c" remote="github" revision="ten" />
   
 </manifest>
