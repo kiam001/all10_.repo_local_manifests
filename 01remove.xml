@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
-  <remove-project name="external/json-c" />
-</mainfest>
+ 
+<remove-project name="android_external_json-c" />
+
+</manifest>
