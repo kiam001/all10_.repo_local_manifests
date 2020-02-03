@@ -66,4 +66,9 @@ Generic ril and wifi fix
 rm -rf external/json-c
 git clone https://github.com/pe-wip/external_json-c external/json-c
 ```
+If a selinux error on build give a fix add this to BoardConfig.mk:
 
+```bash
+# Temp
+SELINUX_IGNORE_NEVERALLOWS := true
+```
