@@ -9,4 +9,8 @@
   <project name="kiam001/Atom_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="rebase" />
   <project name="Sohamlad7/android_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="lineage-17.1" />
   <project name="kiam001/all10_vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="ten" />
+  
+<!-- Fixes -->
+  <remove-project name="android_external_json-c" />
+  <project name="pe-wip/external_json-c" path="external/json-c" remote="github" revision="ten" />
 </manifest>
