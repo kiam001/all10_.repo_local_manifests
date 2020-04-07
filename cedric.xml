@@ -2,8 +2,8 @@
 <manifest>
 
 <!-- LineageOS Dependency Projects -->
-  <project name="kiam001/PixelExperience_packages_resources_MotoActions" path="packages/resources/MotoActions" remote="github" revision="pie" />
-  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-17.0" />
+  <project name="Xtended-Devices/packages_resources_MotoActions" path="packages/resources/MotoActions" remote="github" revision="pie" />
+  <project name="Xtended-Devices/cedric_system_qcom" path="system/qcom" remote="github" revision="lineage-17.0" />
   
 <!-- Moto G5 Cedric Projects -->
   <project name="Xtended-Devices/device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="ten" />
@@ -11,6 +11,6 @@
   <project name="Xtended-Devices/vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="ten" />
   
   <!-- Fixes -->
-  <project name="pe-wip/external_json-c" path="external/json-c" remote="github" revision="ten" />
+  <project name="Xtended-Devices/cedric_external_json-c" path="external/json-c" remote="github" revision="ten" />
   
 </manifest>
