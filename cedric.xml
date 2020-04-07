@@ -2,12 +2,12 @@
 <manifest>
 
 <!-- LineageOS Dependency Projects -->
-  <project name="Xtended-Devices/packages_resources_MotoActions" path="packages/resources/MotoActions" remote="github" revision="pie" />
-  <project name="Xtended-Devices/cedric_system_qcom" path="system/qcom" remote="github" revision="lineage-17.0" />
+  <project name="Xtended-Devices/packages_resources_MotoActions" path="packages/resources/MotoActions" remote="github" revision="ten" />
+  <project name="Xtended-Devices/cedric_system_qcom" path="system/qcom" remote="github" revision="ten" />
   
 <!-- Moto G5 Cedric Projects -->
   <project name="Xtended-Devices/device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="ten" />
-  <project name="Xtended-Devices/kernel_motorola_cedric" path="kernel/motorola/msm8937" remote="github" revision="lineage-17.0" />
+  <project name="Xtended-Devices/kernel_motorola_cedric" path="kernel/motorola/msm8937" remote="github" revision="ten" />
   <project name="Xtended-Devices/vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="ten" />
   
   <!-- Fixes -->
