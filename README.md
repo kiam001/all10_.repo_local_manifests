@@ -18,5 +18,5 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 lunch aosp_cedric-userdebug
 
 # Build the code
-mka bacon -jX
+mka bacon -j$(nproc --all)
 ```
