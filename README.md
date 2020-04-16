@@ -1,6 +1,9 @@
 # Ancient_.repo_local_manifests
 
 ```bash
+repo init -u https://github.com/Ancient-Lab/manifest -b ten
+``````
+```bash
 git clone https://github.com/kiam001/all10_.repo_local_manifests -b ancient .repo/local_manifests
 ```
 ```bash
