@@ -17,7 +17,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch aosp_cedric-userdebug
+lunch aicp_cedric-userdebug
 
 # Build the code
 mka bacon -j$(nproc --all)
