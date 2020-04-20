@@ -4,6 +4,7 @@
 
 ```bash
 repo init -u https://github.com/AICP/platform_manifest.git -b q10.0
+```
 ```bash
 git clone https://github.com/kiam001/all10_.repo_local_manifests -b aicp .repo/local_manifests
 ```
