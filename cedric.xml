@@ -6,7 +6,8 @@
   <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-17.1" />
   
 <!-- Moto G5 Cedric Projects -->
+<<<<<<< HEAD
   <project name="kiam001/all10_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="pe" />
-  <project name="Sohamlad7/android_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="lineage-17.1" />
+  <project name="mvaisakh/eva_kernel" path="kernel/motorola/msm8937" remote="github" revision="eva-rel/eas+3.0/3.18" />
   <project name="kiam001/all10_vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="rebase" />
 </manifest>
