@@ -1,7 +1,7 @@
 # Havoc_.repo_local_manifests
 
 ```bash
-repo init -u https://github.com/AtomOrganization/manifest -b ten
+repo init -u https://github.com/Havoc-OS/android_manifest.git -b ten
 ```
 ```bash
 git clone https://github.com/kiam001/all10_.repo_local_manifests -b havoc .repo/local_manifests
