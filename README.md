@@ -4,7 +4,7 @@
 repo init -u https://github.com/AtomOrganization/manifest -b ten
 ```
 ```bash
-git clone https://github.com/kiam001/all10_.repo_local_manifests -b atom .repo/local_manifests
+git clone https://github.com/kiam001/all10_.repo_local_manifests -b havoc .repo/local_manifests
 ```
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -15,7 +15,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch aosp_cedric-userdebug
+lunch havoc_cedric-userdebug
 
 # Build the code
 mka bacon -j$(nproc --all)
