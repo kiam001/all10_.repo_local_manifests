@@ -1,7 +1,7 @@
-# Corvus_.repo_local_manifests
+# PixysOS_.repo_local_manifests
 
 ```bash
-repo init -u https://github.com/Corvus-ROM/android_manifest.git -b 10
+repo init -u https://github.com/PixysOS/manifest -b ten
 ```
 ```bash
 git clone https://github.com/kiam001/all10_.repo_local_manifests -b corvus .repo/local_manifests
@@ -15,8 +15,8 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch du_cedric-userdebug
+lunch pixys_cedric-userdebug
 
 # Build the code
-make corvus
+make pixys j$(nproc --all)
 ```
