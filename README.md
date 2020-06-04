@@ -1,10 +1,10 @@
-# Atom_.repo_local_manifests
+# Corvus_.repo_local_manifests
 
 ```bash
-repo init -u https://github.com/AtomOrganization/manifest -b ten
+repo init -u https://github.com/Corvus-ROM/android_manifest.git -b 10
 ```
 ```bash
-git clone https://github.com/kiam001/all10_.repo_local_manifests -b atom .repo/local_manifests
+git clone https://github.com/kiam001/all10_.repo_local_manifests -b corvus .repo/local_manifests
 ```
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -15,8 +15,8 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch aosp_cedric-userdebug
+lunch du_cedric-userdebug
 
 # Build the code
-mka bacon -j$(nproc --all)
+make corvus
 ```
