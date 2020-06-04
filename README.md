@@ -4,7 +4,7 @@
 repo init -u https://github.com/PixysOS/manifest -b ten
 ```
 ```bash
-git clone https://github.com/kiam001/all10_.repo_local_manifests -b corvus .repo/local_manifests
+git clone https://github.com/kiam001/all10_.repo_local_manifests -b pixysos .repo/local_manifests
 ```
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
