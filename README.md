@@ -1,12 +1,10 @@
-# aicp_.repo_local_manifests
-
-# aicp
+# Bootleggers_.repo_local_manifests
 
 ```bash
-repo init -u https://github.com/AICP/platform_manifest.git -b q10.0
+repo init -u https://github.com/BootleggersROM/manifest.git -b queso
 ```
 ```bash
-git clone https://github.com/kiam001/all10_.repo_local_manifests -b aicp .repo/local_manifests
+git clone https://github.com/kiam001/all10_.repo_local_manifests -b bootleg .repo/local_manifests
 ```
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -17,7 +15,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch aicp_cedric-userdebug
+lunch bootleg_cedric-userdebug
 
 # Build the code
 mka bacon -j$(nproc --all)
