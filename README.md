@@ -1,12 +1,10 @@
-# aicp_.repo_local_manifests
-
-# aicp
+# crdroid_.repo_local_manifests
 
 ```bash
-repo init -u https://github.com/AICP/platform_manifest.git -b q10.0
+repo init -u git://github.com/crdroidandroid/android.git -b 10.0
 ```
 ```bash
-git clone https://github.com/kiam001/all10_.repo_local_manifests -b aicp .repo/local_manifests
+git clone https://github.com/kiam001/all10_.repo_local_manifests -b crdroid .repo/local_manifests
 ```
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -20,5 +18,5 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 lunch aicp_cedric-userdebug
 
 # Build the code
-mka bacon -j$(nproc --all)
+brunch cedric
 ```
