@@ -14,9 +14,6 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 # Set up environment
 . build/envsetup.sh
 
-# Choose a target
-lunch aicp_cedric-userdebug
-
 # Build the code
 brunch cedric
 ```
