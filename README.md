@@ -4,7 +4,7 @@
 repo init --depth=1 -u git://github.com/AospExtended/manifest.git -b 10.x
 ```
 ```bash
-git clone https://github.com/kiam001/all10_.repo_local_manifests -b aicp .repo/local_manifests
+git clone https://github.com/kiam001/all10_.repo_local_manifests -b aex .repo/local_manifests
 ```
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
